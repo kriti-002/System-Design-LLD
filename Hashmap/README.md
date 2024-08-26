@@ -32,5 +32,5 @@ myHashMap.get(2);    // return -1 (i.e., not found), The map is now [[1,1]]
 
 #Constraints:
 
-0 <= key, value <= 106
-At most 104 calls will be made to put, get, and remove.
+0 <= key, value <= pow(10,6)
+At most pow(10,4) calls will be made to put, get, and remove.
