@@ -6,6 +6,7 @@ Currently we have LLD Code of:
 - HashMap Implementation
 - File System Implementation
 - Vending Machine
+- Vehicle-- Strategy Design Pattern
 
 
 This repository will be updated with many other use cases in future.
