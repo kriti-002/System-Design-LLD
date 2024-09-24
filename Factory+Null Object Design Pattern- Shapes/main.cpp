@@ -27,6 +27,12 @@ public:
         cout << "Drawing a square of side " << side << "\n";
     }
 };
+class NullObject: public Shape{
+public:
+    virtual void draw(){
+        cout<<"Invalid shape to draw, go grab something and we will draw"<<"\n";
+    }
+};
 
 class ShapeFactory {
 public:
@@ -45,8 +51,7 @@ public:
                 return new Square(s);
             }
             default:
-                cout << "Invalid shape type!" << endl;
-                return nullptr;
+                return new NullObject();
         }
     }
 };
